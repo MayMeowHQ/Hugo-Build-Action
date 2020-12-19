@@ -1,6 +1,9 @@
 # Hugo Build Action by MayMeow
 Action to build websites with Hugo
 
+* Using [Hugo Extended versions](https://github.com/gohugoio/hugo/releases)
+* Using [Hugo Docker](https://github.com/MayMeow/hugo) image which is based on [Alpine 3.12](https://hub.docker.com/_/alpine).
+
 ## Usage
 
 add to your workflow
