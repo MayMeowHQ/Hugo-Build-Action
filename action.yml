@@ -1,0 +1,12 @@
+name: 'Hugo build'
+author: 'May Meow'
+description: 'Action to build hugo websites'
+branding:
+  icon: 'cloud-snow'
+  color: 'purple'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+inputs: 
+  production-config:
+    description: 'Path to production config file, if not provided it will be used default value'
