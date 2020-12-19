@@ -1,8 +1,8 @@
-name: 'MayMeows Hugo build action'
+name: 'Hugo build by MayMeow'
 author: 'May Meow'
 description: 'Action to build hugo websites'
 branding:
-  icon: 'cloud-snow'
+  icon: 'package'
   color: 'purple'
 inputs: 
   production-config:
