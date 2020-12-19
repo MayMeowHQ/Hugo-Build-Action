@@ -1,4 +1,4 @@
-# Hugo-Build-Action
+# Hugo Build Action by MayMeow
 Action to build websites with Hugo
 
 ## Usage
