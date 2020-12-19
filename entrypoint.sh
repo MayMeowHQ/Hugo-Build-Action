@@ -2,7 +2,7 @@
 
 if [ -z "$1" ]
 then
-  hugo
+  hugo --enableGitInfo
 else
   hugo --config "$1" --enableGitInfo
 fi
