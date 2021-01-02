@@ -1,4 +1,4 @@
-FROM maymeow/hugo:0.79.1
+FROM maymeow/hugo:0.80.0
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
