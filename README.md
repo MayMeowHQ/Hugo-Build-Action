@@ -20,6 +20,8 @@ This will run `hugo --enableGitinfo`. If you want to use diffrent config file yo
     uses: MayMeowHQ/Hugo-Build-Action@v2
     with:
       production-config: './production.config.toml'
+      hugo-version: '0.89.2'
+      hugo-sha: '8efea63ab960a91918a4c6131d10c244635cd983e4d083afdba6c6b99edb55b6'
 ```
 
 Code abve will run `hugo --config ./production.config.toml --enableGitInfo`

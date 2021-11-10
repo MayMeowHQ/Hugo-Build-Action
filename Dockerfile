@@ -1,4 +1,5 @@
-FROM maymeow/hugo:0.85.0
+FROM alpine:3.14
+MAINTAINER May Meow <hello@mitsuha.dev>
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh

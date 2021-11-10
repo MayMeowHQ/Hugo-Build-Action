@@ -8,8 +8,16 @@ inputs:
   production-config:
     description: 'Path to production config file, if not provided it will be used default value'
     required: false
+  hugo-version:
+    description: 'Enter Hugo version for hugo_extended_XX_Linux-64bit.tar.gz'
+    required: true
+  hugo-sha:
+    description: 'Enter SHA for required version'
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.production-config }}
+    - ${{ inputs.production-config }} #1
+    - ${{ inputs.hugo-version }} #2
+    - ${{ inputs.hugo-sha }} #3
