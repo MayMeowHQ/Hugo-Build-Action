@@ -1,7 +1,7 @@
 #!/bin/sh
 
-$HUGO_VERSION=$2
-$HUGO_SHA=$3
+HUGO_VERSION=$2
+HUGO_SHA=$3
 
 set -eux && \
     apk add --update --no-cache \
@@ -16,7 +16,6 @@ set -eux && \
   rm -r ${HUGO_VERSION}.tar.gz && \
   ## rm /var/cache/apk/* 
   hugo version
-
 
 sleep 5;
 
