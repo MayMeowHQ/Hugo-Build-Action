@@ -21,7 +21,7 @@ sleep 5;
 
 if [ -z "$1" ]
 then
-  hugo --enableGitInfo
+  hugo
 else
-  hugo --config "$1" --enableGitInfo
+  hugo --config "$1"
 fi
