@@ -11,6 +11,7 @@ set -eux && \
       libc6-compat \
       libstdc++ \
       git && \
+      ln -s /lib/libc.so.6 /usr/lib/libresolv.so.2 && \
   wget -O ${HUGO_VERSION}.tar.gz https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz && \
   echo "${HUGO_SHA}  ${HUGO_VERSION}.tar.gz" | sha256sum -c && \
   tar xf ${HUGO_VERSION}.tar.gz && chmod +x hugo && mv hugo* /usr/local/bin/hugo && \
