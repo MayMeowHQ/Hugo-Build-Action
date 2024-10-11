@@ -7,6 +7,7 @@ set -eux && \
     apk add --update --no-cache \
       ca-certificates \
       openssl \
+      gcompat \
       libc6-compat \
       libstdc++ \
       git && \
