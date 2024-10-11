@@ -1,5 +1,5 @@
 name: 'Hugo build by MayMeow'
-author: 'May Meow'
+author: 'MayMeow HQ <opensource@maymeow.com>'
 description: 'Action to build hugo websites'
 branding:
   icon: 'package'
